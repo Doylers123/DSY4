@@ -13,8 +13,7 @@ public class PasswordServer {
     private void start() throws IOException {
         Server = ServerBuilder.forPort(PORT)
                 .addService(new PasswordServiceImpl())
-                .build()
-                .start();
+                .build();
         logger.info("Server started, listening on " + PORT);
 
     }
