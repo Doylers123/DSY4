@@ -1,0 +1,5 @@
+ie\gmit\ds\representations\UserLogin.class
+ie\gmit\ds\representations\User.class
+ie\gmit\ds\controller\UserRESTController.class
+ie\gmit\ds\dao\UserDB.class
+ie\gmit\ds\App.class
